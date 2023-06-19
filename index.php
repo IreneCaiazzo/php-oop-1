@@ -22,3 +22,7 @@ class Movie
     public $year;
     public $protagonist;
 }
+
+$seven_pounds = new Movie();
+$zodiac = new Movie();
+$leon = new Movie();
