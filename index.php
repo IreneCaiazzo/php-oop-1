@@ -59,3 +59,7 @@ $leon = new Movie(
     "1994",
     "Natalie Portman",
 );
+
+echo $seven_pounds->showMovie();
+echo $zodiac->showMovie();
+echo $leon->showMovie();
