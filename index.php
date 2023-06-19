@@ -26,6 +26,10 @@ class Movie
     //costruttore
     public function __construct(string $title, string $director, int $year, string $protagonist)
     {
+        $this->title = $title;
+        $this->director = $director;
+        $this->year = $year;
+        $this->protagonist = $protagonist;
     }
 }
 
