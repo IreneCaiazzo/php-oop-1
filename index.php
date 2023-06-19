@@ -31,6 +31,12 @@ class Movie
         $this->year = $year;
         $this->protagonist = $protagonist;
     }
+
+    //method
+    public function showMovie()
+    {
+        return $this->title . '' . $this->director . '' . $this->year . '' . $this->protagonist;
+    }
 }
 
 $seven_pounds = new Movie(
