@@ -17,26 +17,35 @@ Facciamo attenzione all’organizzazione del codice, suddividendolo in appositi 
 
 class Movie
 {
-    public $title;
-    public $director;
-    public $year;
-    public $protagonist;
+    //variabili d'istanza
+    public string $title;
+    public string $director;
+    public int $year;
+    public string $protagonist;
+
+    //costruttore
+    public function __construct(string $title, string $director, int $year, string $protagonist)
+    {
+    }
 }
 
-$seven_pounds = new Movie();
-$seven_pounds->title = "Seven Pounds";
-$seven_pounds->director = "Gabriele Muccino";
-$seven_pounds->year = "2008";
-$seven_pounds->protagonist = "Will Smith";
+$seven_pounds = new Movie(
+    "Seven Pounds",
+    "Gabriele Muccino",
+    "2008",
+    "Will Smith"
+);
 
-$zodiac = new Movie();
-$zodiac->title = "Zodiac";
-$zodiac->director = "David Fincher";
-$zodiac->year = "2007";
-$zodiac->protagonist = "Jake Gyllenhaal";
+$zodiac = new Movie(
+    "Zodiac",
+    "David Fincher",
+    "2007",
+    "Jake Gyllenhaal",
+);
 
-$leon = new Movie();
-$leon->title = "Léon";
-$leon->director = "Luc Besson";
-$leon->year = "1994";
-$leon->protagonist = "Natalie Portman";
+$leon = new Movie(
+    "Léon",
+    "Luc Besson",
+    "1994",
+    "Natalie Portman",
+);
