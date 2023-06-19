@@ -24,5 +24,19 @@ class Movie
 }
 
 $seven_pounds = new Movie();
+$seven_pounds->title = "Seven Pounds";
+$seven_pounds->director = "Gabriele Muccino";
+$seven_pounds->year = "2008";
+$seven_pounds->protagonist = "Will Smith";
+
 $zodiac = new Movie();
+$zodiac->title = "Zodiac";
+$zodiac->director = "David Fincher";
+$zodiac->year = "2007";
+$zodiac->protagonist = "Jake Gyllenhaal";
+
 $leon = new Movie();
+$leon->title = "Léon";
+$leon->director = "Luc Besson";
+$leon->year = "1994";
+$leon->protagonist = "Natalie Portman";
