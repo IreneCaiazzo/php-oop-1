@@ -35,7 +35,7 @@ class Movie
     //method
     public function showMovie()
     {
-        return $this->title . '' . $this->director . '' . $this->year . '' . $this->protagonist;
+        return $this->title . ' ' . $this->director . ' ' . $this->year . ' ' . $this->protagonist;
     }
 }
 
@@ -60,6 +60,8 @@ $leon = new Movie(
     "Natalie Portman",
 );
 
-echo $seven_pounds->showMovie();
-echo $zodiac->showMovie();
-echo $leon->showMovie();
+//mostra contenuto in pagina
+
+echo $seven_pounds->showMovie() . "<br>";
+echo $zodiac->showMovie() . "<br>";
+echo $leon->showMovie() . "<br>";
